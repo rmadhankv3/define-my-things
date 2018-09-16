@@ -77,11 +77,7 @@ WSGI_APPLICATION = 'DefineMe.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dcg72nokdvqccr',
-        'USER': 'liubaeeapdyvnr',
-        'PASSWORD': '85d48ccd6aac7eb4c5d513497dff972b4971995dadd0835bd26cdc77ce599311',
-        'HOST': 'ec2-54-235-242-63.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'NAME': 'postgres://liubaeeapdyvnr:85d48ccd6aac7eb4c5d513497dff972b4971995dadd0835bd26cdc77ce599311@ec2-54-235-242-63.compute-1.amazonaws.com:5432/dcg72nokdvqccr',
     }
 }
 
@@ -110,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'IST'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 

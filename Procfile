@@ -1,1 +1,1 @@
-web: gunicorn DefineMe.wsgi --log-file -
+web: gunicorn DefineMe.wsgi
